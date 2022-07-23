@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <titlt> SUBMISION FORM USING HTML AND EXPRESS</titlt>
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <form id="Form1">
+                <h3>CREATE ACCOUNT</h3>
+                <input type="text" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confrim Password" required>
+
+                <div class="button-box">
+                    <button type="button" id="Next1">NEXT</button> 
+                </div>
+            </form>
+
+            <form id="Form2">
+                <h3>FORM LINK</h3>
+                <input type="text" placeholder="MEDIUM">
+                <input type="text" placeholder="GITHUB">
+                <input type="text" placeholder="LINKEDIN">
+                
+                <div class="button-box">
+                    <button type="button" id="Back1">BACK</button> 
+                    <button type="button" id="Next2">NEXT</button> 
+                </div>
+            </form>
+
+            <form id="Form3">
+                <h3>PERSONAL INFO</h3>
+                <input type="text" placeholder="FIRST NAME" required>
+                <input type="text" placeholder="LAST NAME" required>
+                <input type="text" placeholder="STUDENT ID" required>
+                
+                <div class="button-box">
+                    <button type="button" id="Back2">BACK</button> 
+                    <button type="submit">SUBMIT</button> 
+                </div>
+            </form>
+
+        </div>
+
+        <script>
+            var Form1 = document.getElementById("Form1");
+            var Form2 = document.getElementById("Form2");
+            var Form3 = document.getElementById("Form3");
+
+            var Next1 = document.getElementById("Next1");
+            var Next2 = document.getElementById("Next2");
+            var Back1 = document.getElementById("Back1");
+            var Back2 = document.getElementById("Back2");
+
+            Next1.onclick = function(){
+                Form1.style.left = "-450px";
+                Form2.style.left = "40px";
+            }
+            Back1.onclick = function(){
+                Form1.style.left = "40px";
+                Form2.style.left = "450px";
+            }
+            Next2.onclick = function(){
+                Form2.style.left = "-450px";
+                Form3.style.left = "40px";
+            }
+            Back2.onclick = function(){
+                Form2.style.left = "40px";
+                Form3.style.left = "450px";
+            }
+        </script>
+
+    </body>
+</html>

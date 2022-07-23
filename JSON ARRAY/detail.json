@@ -1,0 +1,78 @@
+ [
+    {
+        "name": "John Doe",
+        "gender": "male",
+        "contact": "09298752221",
+        "address": "318  Mapleview Drive",
+        "email": "jdoe@email.com",
+        "birthdate": "02-27-1969"
+    },
+    {
+        "name": "Jane Doe",
+        "gender": "male",
+        "contact": "09283452331",
+        "address": "4122  Allison Avenue",
+        "email": "janedoe@email.com",
+        "birthdate": "12-03-1972"
+    },
+    {
+        "name": "Pedro Tucker",
+        "gender": "male",
+        "contact": "09457742622",
+        "address": "3002  Gladwell Street",
+        "email": "ptucker@email.com",
+        "birthdate": "10-12-1999"
+    },
+    {
+        "name": "Jodi Gane",
+        "gender": "female",
+        "contact": "09453452331",
+        "address": "3153  Hamill Avenue",
+        "email": "jdgane@email.com",
+        "birthdate": "08-10-2002"
+    },
+    {
+        "name": "Zayne Mala",
+        "gender": "female",
+        "contact": "09362234128",
+        "address": "1170  Kelly Drive",
+        "email": "zmala@email.com",
+        "birthdate": "01-01-1998"
+    },
+    {
+        "name": "Linda Daisy",
+        "gender": "female",
+        "contact": "09995545321",
+        "address": "2338  Par Drive",
+        "email": "ldaise27@email.com",
+        "birthdate": "01-31-2005"
+    },
+    {
+        "name": "Juan Lim",
+        "gender": "male",
+        "contact": "09985458212",
+        "address": "753  River Road",
+        "email": "jlim34@email.com",
+        "birthdate": "06-27-1998"
+    },
+    {
+        "name": "William Bose",
+        "gender": "male",
+        "contact": "09215563987",
+        "address": "3712  Timbercrest Road",
+        "email": "wwbose@email.com",
+        "birthdate": "04-03-2001"
+    },
+    {
+        "name": "Hooman Neym",
+        "gender": "male",
+        "contact": "09082246721",
+        "address": "2930  Joy Lane",
+        "email": "hooman@email.com",
+        "birthdate": "09-21-2007"
+    }
+    
+]
+
+https://www.youtube.com/watch?v=wI1CWzNtE-M
+
